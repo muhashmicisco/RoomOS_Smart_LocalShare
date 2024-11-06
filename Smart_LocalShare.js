@@ -5,7 +5,7 @@ let screenShareActive = false;
 
 function checkOccupancy() {
   xapi.status.get('RoomAnalytics PeopleCount').then((occupancy) => {
-  console.log('People in room - checkOccupancy',occupancy.Current);  //Uncomment for Troubleshooting
+  //console.log('People in room - checkOccupancy',occupancy.Current);  //Uncomment for Troubleshooting
   if (screenShareActive === true && occupancy.Current === '0') {
       occupancyZeroCount++;
     } else {
@@ -44,11 +44,11 @@ function monitorScreenShare() {
 
 xapi.event.on('PresentationPreviewStarted', () => {
   screenShareActive = true;
-  console.log('LocalShare started'); // Uncomment for Troubleshooting
+  //console.log('LocalShare started'); // Uncomment for Troubleshooting
   setInterval(monitorScreenShare, 120000); // Check every 2min
 });
 
 xapi.event.on('PresentationPreviewStopped', () => {
   screenShareActive = false;
-  console.log('LocalShare stopped'); // Uncomment for Troubleshooting
+  //console.log('LocalShare stopped'); // Uncomment for Troubleshooting
 });
