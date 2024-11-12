@@ -1,4 +1,4 @@
-Cisco RoomOS Systems may not go into standby if local presentation share preview is active. <br><br>
+Cisco RoomOS Systems may not go into standby if local presentation share preview is active. <br>
 ![image](https://github.com/user-attachments/assets/cf824634-0ec2-42e6-ab7a-2eb05445134e)
 <br><br>
 For rooms with outside roombooking panels, occupancy may not be correctly reflected. This Js xAPI macro aims to resolve that by monitoring the room’s occupancy and the screen share status. <br><br>It checks the occupancy every 2 minutes and displays a warning (for 55s) if the room is empty for two consecutive checks.<br>
