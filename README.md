@@ -8,6 +8,6 @@ After the displaying the warning, it stops the screen share after 1 minute.<br>
 <br>
 Normal Console output (with troubleshooting comments):<br>
 ![image](https://github.com/user-attachments/assets/9917e09e-4cfa-4ade-9600-efcce43bf6f3)
-
-<br><br>
+<br><b>
 Note: If the camera view is obstructed OR if people in the room are not visible, this macro will go into effect and may disrupt normal meeting conditions. Please use with caution and provide guidance to end-users.
+</b>
