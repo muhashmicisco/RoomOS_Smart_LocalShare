@@ -4,7 +4,7 @@ Cisco RoomOS Systems may not go into standby if local presentation share preview
 For rooms with outside roombooking panels, occupancy may not be correctly reflected. This Js xAPI macro aims to resolve that by monitoring the room’s occupancy and the screen share status. <br><br>It checks the occupancy every 2 minutes and displays a warning (for 55s) if the room is empty for two consecutive checks.<br>
 ![image](https://github.com/user-attachments/assets/929a4d64-5329-4253-9592-eafc82543ba8)
 <br><br>
-After the warning, it stops the screen share after 1 minute.<br>
+After the displaying the warning, it stops the screen share after 1 minute.
 <br>
 Normal Console output (when debugs are enabled):<br>
 ![image](https://github.com/user-attachments/assets/51a0d382-0e64-468b-88fa-152c6d604777)<br><br>
