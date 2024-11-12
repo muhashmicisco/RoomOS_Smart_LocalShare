@@ -6,6 +6,6 @@ For rooms with outside roombooking panels, occupancy may not be correctly reflec
 <br><br>
 After the displaying the warning, it stops the screen share after 1 minute.
 <br>
-Normal Console output (when debugs are enabled):<br>
+Normal Console output (with troubleshooting comments):<br>
 ![image](https://github.com/user-attachments/assets/51a0d382-0e64-468b-88fa-152c6d604777)<br><br>
 Note: If the camera view is obstructed OR if people in the room are not visible, this macro will go into effect and may disrupt normal meeting conditions. Please use with caution and provide guidance to end-users.
