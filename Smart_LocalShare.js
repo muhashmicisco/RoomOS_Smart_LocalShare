@@ -47,7 +47,7 @@ function monitorScreenShare() {
 xapi.event.on('PresentationPreviewStarted', () => {
   screenShareActive = true;
   // console.log('LocalShare started'); // Uncomment for Troubleshooting
-  occupancyCheckInterval = setInterval(monitorScreenShare, 30000); // Check every 2min
+  occupancyCheckInterval = setInterval(monitorScreenShare, 120000); // Check every 2min
 });
 
 xapi.event.on('PresentationPreviewStopped', () => {
