@@ -1,4 +1,4 @@
-const xapi = require('xapi');
+import xapi from 'xapi';
 
 let occupancyZeroCount = 0;
 let screenShareActive = false;
